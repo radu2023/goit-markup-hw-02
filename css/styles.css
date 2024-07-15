@@ -1,0 +1,139 @@
+:root {
+        --pressed-color-header: #404BBF;
+        --primary-color: #2E2F42;
+        --secondary-color: #434455; 
+        --white-color: #FFFFFF;
+        --button-color: #4D5AE5;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.header-link-active, 
+.header-link:hover {
+    color: var(--pressed-color-header);
+}
+
+.header-link {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--primary-color);
+    } 
+
+.menu-nav {
+    background-color: #E7E9FC;
+} 
+
+.header-contact {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--secondary-color);
+} 
+
+.header-contact:hover {
+    color: var(--pressed-color-header);
+}
+
+
+.hero-section {
+    background-color: var(--primary-color);
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.hero-button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: var(--white-color);
+    cursor: pointer;
+} 
+
+.first-section {
+    background-color: var(--white-color);
+}
+
+.first-section-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--primary-color);
+}
+
+.first-section-description {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left; 
+    color:var(--secondary-color);
+} 
+
+.second-section {
+    background-color: #F4F4FD;
+} 
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--primary-color;)
+} 
+
+.team-card {
+    background-color: var(--white-color);
+}
+
+.second-section-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.second-section-description {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.third-section {
+    background-color: var(--white-color);
+}
